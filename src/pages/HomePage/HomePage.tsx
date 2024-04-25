@@ -1,6 +1,8 @@
 import { BackgroundGradientAnimation } from "../../components/ui/background-gradient-animation";
-
+import { useNavigate } from "react-router-dom";
 export default function HomePage() {
+
+  const navigate = useNavigate();
   const user = localStorage.getItem("user");
   const data = JSON.parse(user as string);
   const name = data.displayName;
@@ -8,7 +10,7 @@ export default function HomePage() {
   const handleSignOut = () => {
     localStorage.removeItem("token");
     localStorage.removeItem("user");
-    window.location.href = "/login";
+    navigate("/login");
   };
   return (
     <>
