@@ -1,5 +1,11 @@
 # React + TypeScript + Vite
 
+# Images
+
+![image](https://github.com/vlokesh08/google-auth-aceternity-ui/assets/76467286/7f0417c0-70c9-4880-994f-3a6db381a895)
+![image](https://github.com/vlokesh08/google-auth-aceternity-ui/assets/76467286/9d60022b-6085-4044-b33a-a9d7164229b3)
+
+
 This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
 
 Currently, two official plugins are available:
